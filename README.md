@@ -1,54 +1,20 @@
 # SOLID - A POC visa esclarecer os conceitos de S.O.L.I.D utilizando o PHP.
 
-## Na pasta "01 - srp" temos o estudo relacionado ao Principio de responsabilidade unica
+## Na pasta "01-srp" temos o estudo relacionado ao Principio de responsabilidade unica
 
 Single Responsibility Principle - SRP <br>
 Principio da responsabilidade unica <br>
+
 Princípio: Uma classe deve ter apenas uma responsabilidade ou razão para mudar.
 
-Temos dois arquivos o "Problem" que mostra a violação gerando o problema e o "Solution" que visa mostrar a solução do problema de como corrigir essa violação.
+[Documentação detalhada](01-srp/README.md)
 
-Arquivo Problem
+## Na pasta "02-ocp" temos o estudo relacionado ao Principio do aberto fechado
 
-```php
-class Problem
-{
-  public function create($problem)
-  {
-    // Logic create problem
-  }
-  public function sendEmailWithCreateProblem($userEmail)
-  {
-    // Logic send email problem
-  }
-}
 
-$problem = new Problem();
-$problem->create("Problem one");
-$problem->sendEmailWithCreateProblem("johndoe@domain.com");
-```
+Open/Closed Principle - OCP <br>
+Principio de aberto / fechado
 
-Arquivo Solution
+Princípio: O código deve ser aberto para extensão, mas fechado para modificação.
 
-```php
-class Problem
-{
-  public function create($problem)
-  {
-    // Logic create problem
-  }
-}
-class ServiceEmail
-{
-  public function sendEmailWithCreateProblem($userEmail)
-  {
-    // Logic send email
-  }
-}
-
-$problem = new Problem();
-$problem->create("Problem one");
-
-$service = new ServiceEmail();
-$service->sendEmailWithCreateProblem("johndoe@domain.com");
-```
+[Documentação detalhada](02-ocp/README.md)
