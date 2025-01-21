@@ -26,3 +26,12 @@ Principio de substituição de Liskov
 Princípio: Subclasses devem poder substituir suas classes base sem alterar o comportamento correto do programa.
 
 [Documentação detalhada](03-lsp/README.md)
+
+## Na pasta "04-isp" temos o estudo relacionado ao Principio da segregacao de interface (I)
+
+Interface Segregation Principle - ISP <br>
+Principio da segregacao de interface
+  
+Princípio: Uma interface não deve forçar a implementação de métodos desnecessários.
+
+[Documentação detalhada](04-isp/README.md)
