@@ -4,10 +4,6 @@
   Principio de aberto / fechado
   
   Princípio: O código deve ser aberto para extensão, mas fechado para modificação.
-
-  Exemplo: Violação
- 
-  Problem
 */
 class Shipping
 {
