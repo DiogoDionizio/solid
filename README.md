@@ -35,3 +35,12 @@ Principio da segregacao de interface
 Princípio: Uma interface não deve forçar a implementação de métodos desnecessários.
 
 [Documentação detalhada](04-isp/README.md)
+
+## Na pasta "05-dip" temos o estudo relacionado ao Principio da inversão de dependencia (D)
+
+Principio da inversão de dependencia - DIP <br>
+Dependency Inversion Principle
+  
+Princípio: Dependa de abstrações, não de implementações concretas.
+
+[Documentação detalhada](05-dip/README.md)
